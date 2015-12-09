@@ -20,5 +20,7 @@ public class Student {
 		this.firstName = first;
 		this.lastName = last;
 		this.number = number;
+		if (!StudentManager.registerStudentStatic(this)) 
+			throw new IllegalArgumentException("number duplicated");
 	}
 }
