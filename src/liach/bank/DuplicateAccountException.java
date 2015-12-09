@@ -1,6 +1,11 @@
-package liach;
+package liach.bank;
 
 public class DuplicateAccountException extends Exception {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5129966944448488218L;
+	
 	private String occupiedName;
 	private BankAccount newAccount;
 	

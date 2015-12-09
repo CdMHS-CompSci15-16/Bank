@@ -1,4 +1,4 @@
-package liach;
+package liach.bank;
 
 public final class Client {
 

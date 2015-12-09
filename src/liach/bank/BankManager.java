@@ -1,4 +1,4 @@
-package liach;
+package liach.bank;
 
 import java.util.HashMap;
 import java.util.Map;
